@@ -9,6 +9,7 @@ import (
 /*
 To Learn: Python Poetry, Go, Cobra
 https://www.udemy.com/course/learn-how-to-code/?couponCode=ST16MT70224
+https://github.com/GoesToEleven/learn-to-code-go-version-03
 */
 
 func main() {
