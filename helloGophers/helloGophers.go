@@ -7,7 +7,6 @@ import (
 
 // this is a comment
 /*
-This is a comment, too
 To Learn: Python Poetry, Go, Cobra
 */
 
