@@ -51,5 +51,5 @@ func main() {
 	fmt.Print("Interface to use: ")
 	fmt.Scanf("%s", &intf)
 	liveCapture(intf)
-
+	//TODO: Add functionality to specify a query, perhaps pass it in as an argument, or inline
 }
