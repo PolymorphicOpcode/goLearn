@@ -8,6 +8,7 @@ import (
 // this is a comment
 /*
 To Learn: Python Poetry, Go, Cobra
+https://www.udemy.com/course/learn-how-to-code/?couponCode=ST16MT70224
 */
 
 func main() {
