@@ -27,12 +27,8 @@ func devInfo() {
 		}
 	}
 }
-func main() {
-	devInfo()
-	var intf string
-	fmt.Print("Interface to use: ")
-	fmt.Scanf("%s", &intf)
 
+func liveCapture(intf string) {
 	handle, err := pcap.OpenLive(intf, snaplen, promisc, timeout)
 	if err != nil {
 		log.Panicln(err)
@@ -47,4 +43,13 @@ func main() {
 	for packet := range source.Packets() {
 		fmt.Println(packet)
 	}
+}
+
+func main() {
+	devInfo()
+	var intf string
+	fmt.Print("Interface to use: ")
+	fmt.Scanf("%s", &intf)
+	liveCapture(intf)
+
 }
