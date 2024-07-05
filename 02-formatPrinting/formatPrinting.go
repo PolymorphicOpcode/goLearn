@@ -9,5 +9,11 @@ func main() {
 	fmt.Printf("%s is %d years old.\n", name, age)
 
 	fmt.Printf("%v is %d years old. \t and the type is %T and %T", name, age, name, age)
-
+	fmt.Println("👹")
+	fmt.Println(`
+	
+		This is pretty rad
+				I think this is fairly unique.
+				
+	`)
 }
