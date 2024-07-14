@@ -12,8 +12,7 @@ func main() {
 	fmt.Println("👹")
 	fmt.Println(`
 	
-		This is pretty rad
-				I think this is fairly unique.
+		You're so skibidi
 				
 	`)
 }
